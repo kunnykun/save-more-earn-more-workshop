@@ -1,0 +1,9 @@
+{
+  "name": "Save More, Earn More Workshop",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
+  },
+  "postCreateCommand": "cp -n .env.example .env || true; echo 'Workspace ready. Open README.md to get started.'",
+  "waitFor": "postCreateCommand"
+}

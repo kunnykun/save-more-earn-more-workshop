@@ -1,0 +1,9 @@
+customer_name,invoice_number,amount_aud,due_date,days_overdue,payment_history_note
+Bright Path Landscaping,INV-1042,2400,2026-07-15,35,"Always pays within a week of due date - first time this late"
+Nguyen Family Trust,INV-1055,380,2026-08-01,18,"Small recurring client, usually prompt"
+Baxter Logistics Pty Ltd,INV-1029,6200,2026-06-30,50,"Repeat late payer - this is the 3rd overdue invoice this year"
+Sunrise Cafe,INV-1061,210,2026-08-05,14,"New customer, first invoice"
+Chen Accounting,INV-1038,1150,2026-07-20,30,"Reliable long-term client, likely an oversight"
+Farrell Events,INV-1058,3400,2026-08-03,16,"First time late, mentioned cash flow issues in email last week"
+Coastal Fitouts Pty Ltd,INV-1015,8900,2026-06-10,70,"Repeat late payer - ignored two previous reminders"
+Patel Hospitality Group,INV-1049,540,2026-07-28,22,"Generally reliable, one late payment 6 months ago"
