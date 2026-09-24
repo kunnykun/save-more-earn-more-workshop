@@ -1,0 +1,25 @@
+# Environment secrets - never commit real credentials
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+
+# Local cleanup holding area - never publish
+_to_delete/
+
+# Demo artifacts attendees/presenter generate live during exercises
+handoff.md
+viewer.html
+serve.py
+app.py
