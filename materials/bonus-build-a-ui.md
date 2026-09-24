@@ -16,7 +16,9 @@ same drafting/matching logic and the same guardrail we added, and
 display the results on the page (use st.dataframe or st.markdown, not
 just raw text). Use the anthropic Python SDK to call Claude, reading the
 API key from the ANTHROPIC_API_KEY environment variable that's already
-set in this session. Install whatever dependencies are needed.
+set in this session. If that key is missing or a call fails, show a
+clear on-page message instead of crashing. Install whatever
+dependencies are needed.
 ```
 Replace `project-X-your-folder` with the project you're wrapping, e.g. `project-1-email-followup` or `project-2-invoice-processing`.
 
@@ -32,9 +34,11 @@ Click the button in the browser. You should see the same kind of output you saw 
 **4. The guardrail still matters here too**
 If you added a "never do X" rule earlier in the project, ask Claude to make sure the app enforces it too, the same way:
 ```
-Make sure app.py enforces the same guardrail rule we added earlier -
-check the code, not just the prompt, since this version doesn't have a
-human reading every draft before it's shown.
+Make sure app.py enforces the same guardrail rule we added earlier - add
+an actual code-level check (a regex or keyword scan on the drafted text,
+not just asking the model to self-verify) that runs on every draft
+before it's shown, since this version doesn't have a human reading
+every draft first.
 ```
 
 **After today:** like the Telegram bot, this app only runs while `streamlit run` is active in this Codespace. Turning it into something a teammate can open anytime (without you having the Codespace open) is a good 90-Day Roadmap item — it needs proper hosting, not something to solve today.
