@@ -21,7 +21,7 @@ platforms.
 For every review in project-3-customer-reviews/reviews.csv rated 4 or 5
 stars, draft a warm, specific thank-you reply that references something
 actual from their review - not a generic "thanks for your feedback."
-For every review rated 2 or 3 stars, draft a calm, non-defensive reply
+For every review rated 1, 2, or 3 stars, draft a calm, non-defensive reply
 that acknowledges the specific issue without making excuses or getting
 defensive. Save every draft to
 project-3-customer-reviews/draft-replies.md, one per review, labelled
