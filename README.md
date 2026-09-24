@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/edgegenix-logo.png" alt="EdgeGenix AI" width="280">
+</p>
+
 # Automating Your Business Using Agents
 ### Save More, Earn More — a hands-on AI automation workshop
 
